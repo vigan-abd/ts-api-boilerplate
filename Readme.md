@@ -1,4 +1,4 @@
-# Node App - Server
+# Typescript App - Server
 
 This repository contains the Node App developed using Typescript and other server side technologies.
 
