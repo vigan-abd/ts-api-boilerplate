@@ -1,0 +1,13 @@
+FROM node:8.9.1
+
+WORKDIR /var/www/app
+
+COPY ./src /var/www/app/src
+COPY ./package.json /var/www/app/package.json
+COPY ./tsconfig.json /var/www/app/tsconfig.json
+
+RUN npm install
+
+RUN npm run watch &
+
+CMD ["npm", "run", "start:dev"]

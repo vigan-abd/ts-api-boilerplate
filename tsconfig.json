@@ -1,0 +1,69 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@config": [
+        "src/config/index"
+      ],
+      "@config/*": [
+        "src/config/*"
+      ],
+      "@console/*": [
+        "src/console/*"
+      ],
+      "@containers/*": [
+        "src/containers/*"
+      ],
+      "@controllers/*": [
+        "src/controllers/*"
+      ],
+      "@events/*": [
+        "src/events/*"
+      ],
+      "@helpers/*": [
+        "src/helpers/*"
+      ],
+      "@listeners/*": [
+        "src/listeners/*"
+      ],
+      "@middlewares/*": [
+        "src/middlewares/*"
+      ],
+      "@models/*": [
+        "src/models/*"
+      ],
+      "@routes": [
+        "src/routes/index"
+      ],
+      "@routes/*": [
+        "src/routes/*"
+      ],
+      "@services/*": [
+        "src/services/*"
+      ],
+      "@repositories/*": [
+        "src/repositories/*"
+      ],
+      "*": [ // types
+        "src/@types/*"
+      ]
+    },
+    "target": "es6",
+    "module": "commonjs",
+    // "sourceMap": true,
+    "outDir": "./dist",
+    "strict": true,
+    "strictNullChecks": true,
+    "noEmitOnError": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "watch": false,
+    "experimentalDecorators": true,
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
