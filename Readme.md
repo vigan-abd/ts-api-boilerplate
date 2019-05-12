@@ -1,6 +1,6 @@
 # Node App - Server
 
-This repository contains the Node App developed using Node JS and other server side technologies.
+This repository contains the Node App developed using Typescript and other server side technologies.
 
 
 ## Developers
@@ -9,6 +9,7 @@ This repository contains the Node App developed using Node JS and other server s
 
 ## Technologies ##
 * Node JS: [https://nodejs.org/](https://nodejs.org/)
+* Typescript: [https://www.typescriptlang.org/](https://www.typescriptlang.org/)
 * Docker: [https://www.docker.com/](https://www.docker.com/)
 * Mongo DB: [https://mongodb.com/](https://mongodb.com/)
 
